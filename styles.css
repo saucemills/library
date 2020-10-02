@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.formDiv h2 {
+    text-align: center;
+}
+
+.book-card {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+}
+
+.book-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.book-card a:hover {
+    color: green;
+}
+
+.book-card,
+.book-card>* {
+    margin: 5px;
+}
+
+
+
+form, 
+form>* {
+    margin: 5px;
+}
